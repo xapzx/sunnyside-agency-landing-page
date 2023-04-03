@@ -88,7 +88,7 @@
     </div>
     <div class="testinomy-wrapper">
       <h3 class="testinomy-title">Client testimonials</h3>
-      <!-- <div class="testinomies"> -->
+      <div class="testinomies">
         <div class="testinomy">
           <img src="images/image-emily.jpg" alt="Picture of Emily">
           <p class="testinomy-text">
@@ -119,13 +119,26 @@
             <div class="client-position">Business Owner</div>
           </div>
         </div>
-      <!-- </div> -->
+      </div>
     </div>
     <div class="gallery-wrapper">
-      <img src="images/mobile/image-gallery-milkbottles.jpg" alt="Image of milk bottles">
-      <img src="images/mobile/image-gallery-orange.jpg" alt="Image of orange on a plate">
-      <img src="images/mobile/image-gallery-cone.jpg" alt="Image of an ice-cream cone">
-      <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="Image of sugar cubes">
+      <picture>
+        <source media="(min-width:750px)" srcset="images/desktop/image-gallery-milkbottles.jpg">
+        <img src="images/mobile/image-gallery-milkbottles.jpg" alt="Image of milk bottles">
+      </picture>
+      <picture>
+        <source media="(min-width:750px)" srcset="images/desktop/image-gallery-orange.jpg">
+        <img src="images/mobile/image-gallery-orange.jpg" alt="Image of orange on a plate">
+      </picture>
+      <picture>
+        <source media="(min-width:750px)" srcset="images/desktop/image-gallery-cone.jpg">
+        <img src="images/mobile/image-gallery-cone.jpg" alt="Image of an ice-cream cone">
+      </picture>
+      <picture>
+        <source media="(min-width:750px)" srcset="images/desktop/image-gallery-sugarcubes.jpg">
+        <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="Image of sugar cubes">
+      </picture>
+      
     </div>
     <footer>
       <img src="images/logo-footer.svg" alt="Footer logo">

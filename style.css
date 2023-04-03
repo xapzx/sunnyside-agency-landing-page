@@ -130,6 +130,13 @@ button.nav-item {
         background-color: var(--clr-neutral-white);
     }
 
+    button.nav-item:hover {
+        cursor: pointer;
+        background-color: transparent;
+        /* opacity: 0.6; */
+        color: var(--clr-neutral-white);
+    }
+
     .hero-title-wrapper {
         font-size: 1.7rem;
         letter-spacing: 10px;
@@ -235,6 +242,10 @@ button.nav-item {
     .service-desc {
         padding: 0 0.5rem;
     }
+
+    .learn-more:hover {
+        cursor: pointer;
+    }
 }
 
 .testinomy-wrapper {
@@ -308,4 +319,33 @@ footer > img {
     display: flex;
     gap: 2rem;
     margin-top: 3rem;
+}
+
+@media (min-width: 750px) {
+    .testinomy-wrapper {
+        padding: 9rem 11rem;
+    }
+
+    .testinomies {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .testinomy {
+        gap: 3rem;
+    }
+
+    .testinomy-title {
+        font-size: 1.3rem;
+    }
+
+    .gallery-wrapper {
+        grid-template-rows: unset;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .nav-menu-footer > .nav-item:hover {
+        color: var(--clr-neutral-white);
+        cursor: pointer;
+    }
 }
