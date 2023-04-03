@@ -50,6 +50,35 @@ header {
     border: none;
 }
 
+.nav-menu {
+    background-color: var(--clr-neutral-white);
+    color: var(--clr-neutral-dark-grayish-blue-200);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 18rem;
+    width: 85%;
+}
+
+button.nav-item {
+    background-color: var(--clr-primary-yellow);
+    color: var(--clr-neutral-dark-desat-blue);
+    font-family: var(--ff-secondary);
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: none;
+    padding: 1rem 2rem;
+}
+
 .collapse {
     display: none;
 }
@@ -198,7 +227,7 @@ footer > img {
     width: 10rem;
 }
 
-.nav-menu {
+.nav-menu-footer {
     display: flex;
     gap: 3.5rem;
 }
