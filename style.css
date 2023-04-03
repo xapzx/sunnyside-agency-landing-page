@@ -20,3 +20,47 @@
     --fw-secondary-regular: 700;
     --fw-secondary-bold: 900;
 }
+
+body {
+    background-color: var(--clr-neutral-white);
+    min-height: 100vh;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-base);
+    text-align: center;
+}
+
+.hero-wrapper {
+    background-image: url(images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 2rem 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+}
+
+.collapse {
+    display: none;
+}
+
+.hero-title-wrapper {
+    color: var(--clr-neutral-white);
+    font-family: var(--ff-secondary);
+    font-size: 1.2rem;
+    font-weight: var(--fw-secondary-bold);
+    letter-spacing: 6px;
+    line-height: 3rem;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+    gap: 2rem;
+    padding: 5rem 0 7rem 0;
+}
