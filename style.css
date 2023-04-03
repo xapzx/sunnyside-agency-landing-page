@@ -199,6 +199,44 @@ button.nav-item {
     font-size: 1rem;
 }
 
+@media (min-width: 750px) {
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+    }
+
+    .product-title {
+        font-size: 2.5rem;
+    }
+
+    .service-text {
+        padding-left: 10rem;
+        padding-right: 6rem;
+    }
+
+    .transform {
+        grid-column: 2;
+    }
+
+    .transform-text {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .service-info-wrapper {
+        text-align: center;
+        top: 65%;
+        bottom: unset;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .service-desc {
+        padding: 0 0.5rem;
+    }
+}
+
 .testinomy-wrapper {
     color: var(--clr-neutral-dark-grayish-blue-400);
     padding: 4rem 1.5rem;
