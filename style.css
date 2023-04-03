@@ -1,0 +1,22 @@
+:root {
+    /* Primary */
+    --clr-primary-soft-red: hsl(7, 99%, 70%);
+    --clr-primary-yellow: hsl(51, 100%, 49%);
+    --clr-primary-dark-cyan-600: hsl(167, 40%, 24%);
+    --clr-primary-dark-blue: hsl(198, 62%, 26%);
+    --clr-primary-dark-cyan-300: hsl(168, 34%, 41%);
+
+    /* Neutral */
+    --clr-neutral-dark-desat-blue: hsl(212, 27%, 19%);
+    --clr-neutral-dark-grayish-blue-400: hsl(213, 9%, 39%);
+    --clr-neutral-dark-grayish-blue-200: hsl(232, 10%, 55%);
+    --clr-neutral-grayish-blue: hsl(210, 4%, 67%);
+    --clr-neutral-white: hsl(0, 0%, 100%);
+
+    --fs-base: 1.125rem;
+    --ff-primary: 'Barlow', sans-serif;
+    --ff-secondary: 'Fraunces', serif;
+    --fw-primary-regular: 600;
+    --fw-secondary-regular: 700;
+    --fw-secondary-bold: 900;
+}
